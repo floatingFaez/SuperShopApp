@@ -16,3 +16,12 @@ D:\Basis C# Tutorial\14-Oct-2014\SuperShopApp\SuperShopApp\obj\Debug\SuperShopAp
 D:\Basis C# Tutorial\14-Oct-2014\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.Properties.Resources.resources
 D:\Basis C# Tutorial\14-Oct-2014\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.SuperShopUI.resources
 D:\Basis C# Tutorial\14-Oct-2014\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.csproj.GenerateResource.Cache
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\bin\Debug\SuperShopApp.exe.config
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.exe
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.pdb
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\bin\Debug\SuperShopApp.exe
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\bin\Debug\SuperShopApp.pdb
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.csprojResolveAssemblyReference.cache
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.Properties.Resources.resources
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.SuperShopUI.resources
+C:\Users\Sifat Rahman\Documents\Visual Studio 2013\Projects\SuperShopApp\SuperShopApp\obj\Debug\SuperShopApp.csproj.GenerateResource.Cache

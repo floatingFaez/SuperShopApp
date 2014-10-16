@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SuperShopApp.BLL;
+using SuperShopApp.DLL.DAO;
 
 namespace SuperShopApp
 {
     public partial class SuperShopUI : Form
     {
+        
+        ShopBll aShopBll = new ShopBll();
         private Shop aShop;
         private Product aProduct;
 
@@ -23,12 +27,13 @@ namespace SuperShopApp
         private void shopSaveButton_Click(object sender, EventArgs e)
         {
             aShop = new Shop(nameTextBox.Text,addressTextBox.Text);
-            MessageBox.Show(@"Shop is created");
+            string msg = aShopBll.Save(aShop);
+            MessageBox.Show(msg);
         }
 
         private void productSaveButton_Click(object sender, EventArgs e)
         {
-            int productId = Convert.ToInt32(productIdTextBox.Text);
+            string productId = productIdTextBox.Text;
             int quentity = Convert.ToInt32(quentityTextBox.Text);
             aProduct = new Product( productId, quentity);
             string msg = aShop.Add(aProduct);
@@ -37,7 +42,8 @@ namespace SuperShopApp
 
         private void showDetailsButton_Click(object sender, EventArgs e)
         {
-            string msg = aShop.GetAllProduct(aProduct);
+            List<Product> products = aShop.GetAllProduct();
+            string msg = aShop.ShowAllProduct(products);
             MessageBox.Show(msg);
         }
     }
